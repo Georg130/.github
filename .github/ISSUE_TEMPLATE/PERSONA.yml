@@ -1,3 +1,5 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+
 name: Persona
 description: Add a new persona to the application, system or service requirements
 title: "[PERSONA]: "
@@ -12,7 +14,7 @@ body:
   - type: textarea
     id: persona-bio
     attributes:
-      label: "Persona Biography"
+      label: "Biography"
       description: "Please describe the **persona** in a short, personal bio form."
       placeholder: |
         *Example:* Warin is a ground handling agent at Lufthansa, passionate
@@ -25,10 +27,47 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: persona-generation
+    attributes:
+      label: "Generation"
+      description: |
+        See [here](https://www.beresfordresearch.com/age-range-by-generation/) for more background.
+      options:
+        - Gen Z	(born 1997-2012)
+        - Millennials	(born 1981-1996)
+        - Gen X	(born 1965-1980)
+        - Boomers II (born 1955-1964)
+        - Boomers I	(born 1946-1954)
+        - Post War (born 1928-1945)
+        - WWII (born 1922-1927)
+
+  - type: dropdown
+    id: persona-archetype
+    attributes:
+      label: "Archetype"
+      description: |
+        Every good story is made up of interesting characters.
+        In narrative theory, there are 12 classic archetypes. They each play a specific role and have goals, motivations, strengths, weaknesses, and complementary characters.
+        See [here](https://www.method.com/insights/how-to-use-personas-and-archetypes-to-drive-shared-understanding-and-digital-strategy/) for more background.
+      options:
+        - The Innocent
+        - The Everyman/woman
+        - The Hero
+        - The Caregiver
+        - The Explorer
+        - The Rebel
+        - The Lover
+        - The Creator
+        - The Jester
+        - The Sage
+        - The Magician
+        - The Ruler
+
   - type: textarea
     id: persona-goals
     attributes:
-      label: "Persona Goals"
+      label: "Goals"
       description: "What are the (typical or primary) goals of the *Persona*?"
       placeholder: |
         *Example:*
