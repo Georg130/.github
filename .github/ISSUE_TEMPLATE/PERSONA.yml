@@ -1,0 +1,41 @@
+name: Persona
+description: Add a new persona to the application, system or service requirements
+title: "[PERSONA]: "
+labels: ["PERSONA"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A **persona** is an archetypical user of a system, an example of the
+        kind of person who would interact with the system to be designed.
+
+  - type: textarea
+    id: persona-bio
+    attributes:
+      label: Persona Biography
+      description: Please describe the **persona** in a short, personal bio form.
+      placeholder:  |
+        *Example:* Warin is a ground handling agent at Lufthansa, passionate
+        about safe operation and delivering for  Lufthansa customers. He takes
+        pride on his ability to solve problems, always looking for innovative solutions
+        that can lead to an improvement for the customer, supported by his colleagues
+        where required. He is proactive and happy working on his own or in
+        managing a team. He also enjoy being outdoors whatever the weather is and
+        keeping himself fit enabling to comfortably do manual handling activities.
+    validations:
+      required: true
+
+  - type: textarea
+    id: persona-goals
+    attributes:
+      label: Persona Goals
+      description: What are the (typical or primary) goals of the *Persona*?
+      placeholder:  |
+        *Example:*
+        * Take pride in getting a job done right
+        * Identify continuous improvement opportunities, learning from causes of issues
+          and delays
+        * Role model behavior providing shadowing support and mentoring colleagues as
+          required
+    validations:
+      required: true
