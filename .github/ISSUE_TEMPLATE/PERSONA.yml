@@ -16,8 +16,8 @@ body:
     attributes:
       label: "Biography"
       description: "Please describe the **persona** in a short, personal bio form."
-      placeholder: |
-        *Example:* Warin is a ground handling agent at Lufthansa, passionate
+      placeholder: >
+        Example: Warin is a ground handling agent at Lufthansa, passionate
         about safe operation and delivering for  Lufthansa customers. He takes
         pride on his ability to solve problems, always looking for innovative solutions
         that can lead to an improvement for the customer, supported by his colleagues
@@ -28,10 +28,25 @@ body:
       required: true
 
   - type: dropdown
+    id: persona-gender
+    attributes:
+      label: "Gender"
+      description: >
+        Gender identity is the personal sense of one's own gender. Gender includes the
+        social, psychological, cultural and behavioral aspects of being a man, woman,
+        or other gender identity.
+      options:
+        - male
+        - female
+        - diverse
+
+  - type: dropdown
     id: persona-generation
     attributes:
       label: "Generation"
-      description: |
+      description: >
+        Social generations are cohorts of people born in the same date range and who share
+        similar cultural experiences.
         See [here](https://www.beresfordresearch.com/age-range-by-generation/) for more background.
       options:
         - Gen Z	(born 1997-2012)
@@ -46,9 +61,9 @@ body:
     id: persona-archetype
     attributes:
       label: "Archetype"
-      description: |
-        Every good story is made up of interesting characters.
-        In narrative theory, there are 12 classic archetypes. They each play a specific role and have goals, motivations, strengths, weaknesses, and complementary characters.
+      description: >
+        Every good story is made up of interesting characters. In narrative theory, there are 12 classic archetypes.
+        They each play a specific role and have goals, motivations, strengths, weaknesses, and complementary characters.
         See [here](https://www.method.com/insights/how-to-use-personas-and-archetypes-to-drive-shared-understanding-and-digital-strategy/) for more background.
       options:
         - The Innocent
@@ -69,12 +84,12 @@ body:
     attributes:
       label: "Goals"
       description: "What are the (typical or primary) goals of the *Persona*?"
-      placeholder: |
-        *Example:*
-        * Take pride in getting a job done right
-        * Identify continuous improvement opportunities, learning from causes of issues
+      placeholder: >
+        Example:
+        - Take pride in getting a job done right
+        - Identify continuous improvement opportunities, learning from causes of issues
           and delays
-        * Role model behavior providing shadowing support and mentoring colleagues as
+        - Role model behavior providing shadowing support and mentoring colleagues as
           required
     validations:
       required: true
