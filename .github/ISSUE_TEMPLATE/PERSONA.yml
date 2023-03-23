@@ -34,8 +34,9 @@ body:
         *Example:*
         * Take pride in getting a job done right
         * Identify continuous improvement opportunities, learning from causes of issues
-          and delays
+          and delays
         * Role model behavior providing shadowing support and mentoring colleagues as
           required
     validations:
       required: true
+
