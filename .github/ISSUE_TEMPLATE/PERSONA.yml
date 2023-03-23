@@ -7,7 +7,7 @@ labels: ["PERSONA"]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         A **persona** is an archetypical user of a system, an example of the
         kind of person who would interact with the system to be designed.
 
@@ -58,6 +58,53 @@ body:
         - WWII (born 1922-1927)
 
   - type: dropdown
+    id: persona-religion
+    attributes:
+      label: "Religion"
+      description: >
+        Religions have narratives, symbols, traditions and sacred histories that are intended to
+        give meaning to life or to explain the origin of life or the universe. They tend to derive
+        morality, ethics, religious laws, or a preferred lifestyle from their ideas about the
+        cosmos and human nature.
+      options:
+        - Jewish
+        - Mainline Protestant
+        - Catholic Christian
+        - Evangelical Christian
+        - Muslim
+        - Mormon
+        - Buddhist
+        - Atheist or Unaffiliated
+
+  - type: dropdown
+    id: persona-region
+    attributes:
+      label: "Region"
+      description: >
+        Region where persona lives and works.
+      options:
+        - East Asia and Pacific
+        - Europe and Central Asia
+        - Latin America & the Caribbean
+        - Middle East and North Africa
+        - North America
+        - South Asia
+        - Sub-Saharan Africa
+
+  - type: dropdown
+    id: persona-income
+    attributes:
+      label: "Income"
+      description: >
+        World Bank classifications of income levels.
+        See [here](https://blogs.worldbank.org/opendata/new-world-bank-country-classifications-income-level-2022-2023) for more background.
+      options:
+        - low
+        - lower-middle
+        - upper-middle
+        - high income
+
+  - type: dropdown
     id: persona-archetype
     attributes:
       label: "Archetype"
@@ -86,11 +133,9 @@ body:
       description: "What are the (typical or primary) goals of the *Persona*?"
       placeholder: >
         Example:
-        - Take pride in getting a job done right
-        - Identify continuous improvement opportunities, learning from causes of issues
-          and delays
-        - Role model behavior providing shadowing support and mentoring colleagues as
-          required
+          - Take pride in getting a job done right
+          - Identify continuous improvement opportunities, learning from causes of issues and delays
+          - Role model behavior providing shadowing support and mentoring colleagues as required
     validations:
       required: true
 
