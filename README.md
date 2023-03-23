@@ -1,2 +1,11 @@
 # .github
-GitHub repositories default community files
+
+*Copyright (c) 2023 ConfigCar GmbH (Germany). All rights reserved.*
+
+-------
+
+GitHub repositories default community files for GitHub company organization [protagged](https://github.com/protagged).
+
+See the [docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) on GitHub for more information.
+
+> Note: this [repository MUST be public](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#creating-a-repository-for-default-files): "Make sure the repository status is set to Public (a repository for default files cannot be private)."
