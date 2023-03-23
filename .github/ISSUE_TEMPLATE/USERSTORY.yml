@@ -1,0 +1,22 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+
+name: User Story
+description: Add a new user story to the application, system or service requirements
+title: "[USERSTORY]: "
+labels: ["USERSTORY"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        A user story is an informal, general explanation of a software feature
+        written from the perspective of the end user. Its purpose is to articulate
+        how a software feature will provide value to the customer.
+
+  - type: input
+    id: persona
+    attributes:
+      label: Persona
+      description: Please enter a reference to the persona issue this user story applies to
+      placeholder: "Issue number of persona"
+    validations:
+      required: true

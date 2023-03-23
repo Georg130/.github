@@ -1,0 +1,26 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+
+name: UX Screen (Wireframe)
+description: Add a new UX Screen (Wireframe) as a design requirements detail
+title: "[UX-SCREEN]: "
+labels: ["UX-SCREEN"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        A high-fidelity wireframe for one UX screen, designed in Figma.
+        See [here](https://www.figma.com/blog/how-to-wireframe/).
+        A wireframe is a simple visual guide that represents the skeletal framework
+        of a website or digital product. Think of it as the blueprint for your final design.
+        High fidelity wireframes include visual markers and branding signifiers like colors,
+        graphics, and font style. UI elements look realistic and might even include
+        textures and shadows.
+
+  - type: input
+    id: userstory
+    attributes:
+      label: User Stories
+      description: Please enter one or more references to the user story (or stories) this user experience screen applies to
+      placeholder: "Issue number(s) of user story (or stories)"
+    validations:
+      required: true

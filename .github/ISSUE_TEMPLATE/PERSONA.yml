@@ -139,3 +139,17 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: persona-challenges
+    attributes:
+      label: "Challenges"
+      description: "What are the (common or recurring) challenges of the *Persona*?"
+      placeholder: >
+        Example:
+          - Failure in monitoring and managing risk
+          - Failure to take known risks into account
+          - Mismeasurement of known risks for mishandled baggage
+          - Failure in communicating risks to top management
+          - No communication with passenger directly to inform or confirmation about their mishandled baggage
+    validations:
+      required: true
