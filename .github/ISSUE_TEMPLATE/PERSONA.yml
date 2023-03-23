@@ -12,9 +12,9 @@ body:
   - type: textarea
     id: persona-bio
     attributes:
-      label: Persona Biography
-      description: Please describe the **persona** in a short, personal bio form.
-      placeholder:  |
+      label: "Persona Biography"
+      description: "Please describe the **persona** in a short, personal bio form."
+      placeholder: |
         *Example:* Warin is a ground handling agent at Lufthansa, passionate
         about safe operation and delivering for  Lufthansa customers. He takes
         pride on his ability to solve problems, always looking for innovative solutions
@@ -28,9 +28,9 @@ body:
   - type: textarea
     id: persona-goals
     attributes:
-      label: Persona Goals
+      label: "Persona Goals"
       description: "What are the (typical or primary) goals of the *Persona*?"
-      placeholder:  |
+      placeholder: |
         *Example:*
         * Take pride in getting a job done right
         * Identify continuous improvement opportunities, learning from causes of issues
