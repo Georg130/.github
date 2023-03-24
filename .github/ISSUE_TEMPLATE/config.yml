@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: ConfigCar and ProTagged Developer Community Discussions
     url: https://github.com/protagged/tbd/discussions
